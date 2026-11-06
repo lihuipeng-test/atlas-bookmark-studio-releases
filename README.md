@@ -6,11 +6,11 @@
 
 ## 下载
 
-### [下载 0.20.11 公开试用版](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/download/v0.20.11/atlas-bookmark-studio-0.20.11.zip)
+### [下载 0.20.12 公开试用版](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/download/v0.20.12/atlas-bookmark-studio-0.20.12.zip)
 
-[版本说明与附件](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/tag/v0.20.11) · [历史版本](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases) · [安装与升级](INSTALL.md) · [反馈问题](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/issues/new/choose)
+[版本说明与附件](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/tag/v0.20.12) · [历史版本](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases) · [安装与升级](INSTALL.md) · [反馈问题](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/issues/new/choose)
 
-**请下载 `atlas-bookmark-studio-0.20.11.zip`。GitHub 自动附带的 `Source code` ZIP 不是可安装的扩展包。**
+**请下载 `atlas-bookmark-studio-0.20.12.zip`。GitHub 自动附带的 `Source code` ZIP 不是可安装的扩展包。**
 
 ## 能做什么
 
@@ -18,8 +18,11 @@
 - 每行描述一件装备，一次最多12件；核对、预览并批量保存。
 - 支持属性最低值、抗性任选、预算、排序，以及作者明确填写的权重。
 - 在官网继续调整并执行搜索后，将实际条件保存回书签。
+- 以已有书签为基础，只修改明确的数值、预算或排序，保留其他搜索条件；这类修改无需 AI。
+- 勾选装备后复制、移动、删除，或另建下一阶段，支持操作后的撤销。
+- 展开目录就地阅读阶段说明，查看作者填写的沿用、替换和购买数量安排。
 - 复制目录、跨服另存、分享购买方案，并使用四套材质主题。
-- 开启电脑文件夹自动备份，保留最近50个历史版本。
+- 开启电脑文件夹自动备份，正式修改后更新并校验一份最新 JSON。
 
 基础条件无需 AI Key。复杂描述可以接入你自己的火山方舟 API Key 和已开通模型，调用费用由你的方舟账户承担。工具不计算 PoB 收益权重；购买前仍需核对条件、词缀、价格和库存。
 
@@ -31,18 +34,19 @@
 
 已有用户请按 [升级说明](INSTALL.md#从旧版升级) 覆盖原文件夹并重新加载，**不要先移除旧扩展**。
 
-## 0.20.11 更新
+## 0.20.12 更新 · 2026-11-06
 
-- 适配国际服新版市集，修复 DPS、元素DPS及加权总分排序。
-- 修复官网修改条件后的回存。
-- 搜索失败、未完成或已清空时，阻止误用旧搜索条件。
-- 包含此前国服 POE2 筛选、市集初始化和分享排序修复。
+- **复用成熟搜索：**从“以此为基础”或“以所选为基础”进入，在每件装备的“本次修改”中填写变化，核对差异后保存。
+- **按阶段整理：**只把所选装备复制到新阶段；批量移动、删除支持失败重试和撤销。
+- **阶段说明直接阅读：**目录下显示摘要，长说明按需展开；编辑时可以“稍后继续”，刷新和重启后恢复未提交的说明草稿。
+- **阅读更清楚：**调整字体、间距、目录层级和四套主题，修复皮肤加载闪色、重复藤蔓及展开箭头偏移。
+- **备份更简单：**电脑自动备份只维护最新 JSON；旧文件保留，日常修改不再生成历史版本和索引。
 
-国服／国际服的 POE1／POE2 已完成代表搜索验收；1,181项自动化检查通过。试用版会继续根据反馈改进，不能保证所有自然语言表达均能准确生成。
+1,280 项自动化检查通过。此前版本完成过国服／国际服 × POE1／POE2 的代表搜索验收；本轮新增功能主要进行了本地界面和隔离扩展验证，未重跑真实模型及全部市集查询。当前为公开试用版，复杂条件仍需人工核对。
 
 ## 数据和反馈
 
-书签主要保存在本机，建议完成侧栏的电脑备份引导。当前没有开发者运营的云同步或账号服务。复杂 AI 请求会直接发送到你配置的火山方舟服务，详情见下载包中的 `PRIVACY.html`。
+书签主要保存在本机，建议完成侧栏的电脑备份引导。未完成的 AI 清单和目录说明是本机草稿，保存成正式内容后才进入书签 JSON 备份。当前没有开发者运营的云同步或账号服务。复杂 AI 请求会直接发送到你配置的火山方舟服务，详情见下载包中的 `PRIVACY.html`。
 
 遇到问题请 [提交反馈](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/issues/new/choose)，附上浏览器和扩展版本、游戏与区服、原始购买描述及错误提示。**不要提供 API Key、密码、Cookie 或整份私人书签备份。**
 
