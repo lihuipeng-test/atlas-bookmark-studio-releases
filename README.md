@@ -6,11 +6,11 @@
 
 ## 下载
 
-### [下载 0.20.12 公开试用版](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/download/v0.20.12/atlas-bookmark-studio-0.20.12.zip)
+### [下载 0.20.13 公开试用版](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/download/v0.20.13/atlas-bookmark-studio-0.20.13.zip)
 
-[版本说明与附件](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/tag/v0.20.12) · [历史版本](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases) · [安装与升级](INSTALL.md) · [反馈问题](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/issues/new/choose)
+[版本说明与附件](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/tag/v0.20.13) · [历史版本](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases) · [安装与升级](INSTALL.md) · [反馈问题](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/issues/new/choose)
 
-**请下载 `atlas-bookmark-studio-0.20.12.zip`。GitHub 自动附带的 `Source code` ZIP 不是可安装的扩展包。**
+**请下载 `atlas-bookmark-studio-0.20.13.zip`。GitHub 自动附带的 `Source code` ZIP 不是可安装的扩展包。**
 
 ## 能做什么
 
@@ -34,15 +34,15 @@
 
 已有用户请按 [升级说明](INSTALL.md#从旧版升级) 覆盖原文件夹并重新加载，**不要先移除旧扩展**。
 
-## 0.20.12 更新 · 2026-11-06
+## 0.20.13 更新 · 2026-11-13
 
-- **复用成熟搜索：**从“以此为基础”或“以所选为基础”进入，在每件装备的“本次修改”中填写变化，核对差异后保存。
-- **按阶段整理：**只把所选装备复制到新阶段；批量移动、删除支持失败重试和撤销。
-- **阶段说明直接阅读：**目录下显示摘要，长说明按需展开；编辑时可以“稍后继续”，刷新和重启后恢复未提交的说明草稿。
-- **阅读更清楚：**调整字体、间距、目录层级和四套主题，修复皮肤加载闪色、重复藤蔓及展开箭头偏移。
-- **备份更简单：**电脑自动备份只维护最新 JSON；旧文件保留，日常修改不再生成历史版本和索引。
+- **跨服名称转换：**将已收录的装备名称与基底转换为目标服名称，保留条件、权重、排序和变异技能石类型。
+- **部分复制：**列出无法转换的项目和原因，可选择“复制可用项”，个别失败不再阻断整个目录。
+- **继续未完成项：**下次仅重试失败项，并防止重复提交及丢响应造成重复新增。
 
-1,280 项自动化检查通过。此前版本完成过国服／国际服 × POE1／POE2 的代表搜索验收；本轮新增功能主要进行了本地界面和隔离扩展验证，未重跑真实模型及全部市集查询。当前为公开试用版，复杂条件仍需人工核对。
+**名称对照尚未覆盖全部暗金和基底。** 同名但无法唯一对应的物品需要人工确认；旧版短链接需要在市集重新搜索并保存完整链接。
+
+1,313 项自动检查通过，并检查四主题、窄侧栏和独立安装包流程。本轮国际服访问受 403 验证页限制，名称转换检查不代表官网实际接受或有货，当前继续作为公开试用版发布。
 
 ## 数据和反馈
 
