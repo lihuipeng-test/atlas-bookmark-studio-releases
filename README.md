@@ -6,11 +6,11 @@
 
 ## 下载
 
-### [下载 0.20.13 公开试用版](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/download/v0.20.13/atlas-bookmark-studio-0.20.13.zip)
+### [下载 0.20.14 公开试用版](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/download/v0.20.14/atlas-bookmark-studio-0.20.14.zip)
 
-[版本说明与附件](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/tag/v0.20.13) · [历史版本](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases) · [安装与升级](INSTALL.md) · [反馈问题](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/issues/new/choose)
+[版本说明与附件](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases/tag/v0.20.14) · [历史版本](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/releases) · [安装与升级](INSTALL.md) · [反馈问题](https://github.com/lihuipeng-test/atlas-bookmark-studio-releases/issues/new/choose)
 
-**请下载 `atlas-bookmark-studio-0.20.13.zip`。GitHub 自动附带的 `Source code` ZIP 不是可安装的扩展包。**
+**请下载 `atlas-bookmark-studio-0.20.14.zip`。GitHub 自动附带的 `Source code` ZIP 不是可安装的扩展包。**
 
 ## 能做什么
 
@@ -21,7 +21,8 @@
 - 以已有书签为基础，只修改明确的数值、预算或排序，保留其他搜索条件；这类修改无需 AI。
 - 勾选装备后复制、移动、删除，或另建下一阶段，支持操作后的撤销。
 - 展开目录就地阅读阶段说明，查看作者填写的沿用、替换和购买数量安排。
-- 复制目录、跨服另存、分享购买方案，并使用四套材质主题。
+- 复制目录、跨服另存和分享购买方案，常用工具可自定义。
+- 同时关注最多 8 个搜索，按书签查看实时商品和标价。
 - 开启电脑文件夹自动备份，正式修改后更新并校验一份最新 JSON。
 
 基础条件无需 AI Key。复杂描述可以接入你自己的火山方舟 API Key 和已开通模型，调用费用由你的方舟账户承担。工具不计算 PoB 收益权重；购买前仍需核对条件、词缀、价格和库存。
@@ -34,15 +35,14 @@
 
 已有用户请按 [升级说明](INSTALL.md#从旧版升级) 覆盖原文件夹并重新加载，**不要先移除旧扩展**。
 
-## 0.20.13 更新 · 2026-11-13
+## 0.20.14 更新 · 2026-11-19
 
-- **跨服名称转换：**将已收录的装备名称与基底转换为目标服名称，保留条件、权重、排序和变异技能石类型。
-- **部分复制：**列出无法转换的项目和原因，可选择“复制可用项”，个别失败不再阻断整个目录。
-- **继续未完成项：**下次仅重试失败项，并防止重复提交及丢响应造成重复新增。
+- 实时关注支持分组报价，点击商品「详情」打开对应的已有官网实时页，关闭后清空本次关注。
+- 恢复经典羊皮纸，标准行距默认开启。目录与赛季同行，说明按需展开。
+- 在同一阶段混排购买书签、说明、正则和子目录。正则支持点击复制。
+- 快捷工具支持自定义，跨服复制可从列表选择赛季。
 
-**名称对照尚未覆盖全部暗金和基底。** 同名但无法唯一对应的物品需要人工确认；旧版短链接需要在市集重新搜索并保存完整链接。
-
-1,313 项自动检查通过，并检查四主题、窄侧栏和独立安装包流程。本轮国际服访问受 403 验证页限制，名称转换检查不代表官网实际接受或有货，当前继续作为公开试用版发布。
+新版可以读取旧版分享及备份。共享新版目录或在另一台电脑恢复全量备份前，请先将接收方扩展升级到本版。
 
 ## 数据和反馈
 
